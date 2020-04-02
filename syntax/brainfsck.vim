@@ -19,11 +19,11 @@ syntax match   bPtrDec  "<"
 syntax match   bValOut  "."
 syntax match   bValRead ","
 syntax match   bComment "[^+\-<>\[\].,]"
-syntax keyword bRepeat  [ ]
+syntax keyword bRepeat  \[ \]
 
 hi def link bValInc  Identifier
 hi def link bValDec  Identifier
-hi def link bValZero Identifier
+hi def link bValZero Keyword
 hi def link bPtrInc  Identifier
 hi def link bPtrDec  Identifier
 hi def link bValOut  Identifier
