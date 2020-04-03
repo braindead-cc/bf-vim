@@ -11,15 +11,15 @@ if exists("b:current_syntax")
 	finish
 endif
 
-syntax match   bValInc  "+"
-syntax match   bValDec  "-"
-syntax match   bValZero "\[[-+]\]"
-syntax match   bPtrInc  ">"
-syntax match   bPtrDec  "<"
-syntax match   bValOut  "."
-syntax match   bValRead ","
-syntax match   bComment "[^+\-<>\[\].,]"
-syntax keyword bRepeat  \[ \]
+syntax match bValInc  "+"
+syntax match bValDec  "-"
+syntax match bValZero "\[[-+]\]"
+syntax match bPtrInc  ">"
+syntax match bPtrDec  "<"
+syntax match bValOut  "."
+syntax match bValRead ","
+syntax match bComment "[^+\-<>\[\].,]"
+syntax match bRepeat  "[\[\]]"
 
 hi def link bValInc  Identifier
 hi def link bValDec  Identifier
