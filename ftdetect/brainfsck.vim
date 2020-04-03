@@ -6,5 +6,5 @@ au BufNewFile,BufRead *.b set syntax=brainfsck
 " but since so many brainfsck programs use the
 " *.bf ending instead (it's actually for Befunge), I'm
 " adding this here.
-au BufNewFile,BufRead *.bf set filetype=brainfsck
-au BufNewFile,BufRead *.bf set syntax=brainfsck
+"au BufNewFile,BufRead *.bf set filetype=brainfsck
+"au BufNewFile,BufRead *.bf set syntax=brainfsck
